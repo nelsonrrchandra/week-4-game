@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	</head>
+
+	<body>
+		<section id=charSelect class= "container">
+			<div class="row">
+				<div id= "TomiasPortrait" class="col charPortait" data-value="Tomias">
+					Tomias
+				</div>
+
+				<div id= "WillowPortait" class="col charPortait" data-value="Willow">
+					Willow
+				</div>
+
+				<div id= "JustinianPortait" class="col charPortait" data-value= "Justinian" >
+					Justinian
+				</div>
+
+				<div id= "HeliaPortait" class="col charPortait" data-value= "Helia">
+					Helia
+				</div>
+			</div>
+		</section>
+
+		<section id=charDisp class="container">
+			<div class="row">
+				<div id=playerChar class="col-5">
+					Player Character
+				</div>
+				<div class="col-2"></div>
+				<div id=opponentChar class="col-5">
+					Opponent
+				</div>
+			<div>
+		</section>
+
+		<section id=buttons class= "container">
+			<button id= "select-btn" type="button" class="btn btn-primary btn-lg" value= "select" disabled>Select Character</button>
+
+			<button id= "continue-btn" type="button" class="btn btn-primary btn-lg" value= "continue" >Continue...</button>
+
+			<button type="button" class="btn btn-danger btn-combat" value= "strength">Strength</button>
+
+			<button type="button" class="btn btn-primary btn-combat" value= "magic">Magic</button>
+
+			<button type="button" class="btn btn-warning btn-combat" value="intelligence">Intelligence</button>
+		</section>
+
+		<section class= "container">
+			<div id=textDisp class="row">
+			</div>
+		</section>
+
+		<!-- scripts -->
+		<script type="text/javascript" src="assets/javascript/game.js"></script>	
+
+	</body>
+</html>
